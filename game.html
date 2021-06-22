@@ -9,31 +9,36 @@
 
     <link rel="stylesheet" href="./css/style.css" />
     <style>
-       
-
         html {
             background-image: url(./images/bg2.jpg);
             background-repeat: no-repeat;
             background-size: cover;
 
         }
+
+        a {
+            text-decoration: none;
+            display: inline-block;
+            padding: 5px 5px;
+            border: none;
+        }
+
+        button:hover {
+            color: black;
+            border: none;
+        }
+
+        .previous {
+            color: black;
+            
+        }
     </style>
 </head>
 
 <body>
     <h2 id="h2">Memory Card Game</h2>
-    
-        <div class="scroll-prompt" scroll-prompt="" ng-show="showPrompt" style="opacity: 1; margin-left: -63rem; margin-top: -5rem;">
-            <div class="scroll-prompt-arrow-container">
-                <div class="scroll-prompt-arrow"><div></div></div>
-                <div class="scroll-prompt-arrow"><div></div></div>
-            </div>
-            <div class="btn">
-           <a  href="intex.html" ><button style="text-transform: uppercase;">PREV</button></a>
-            </div>
-        </div>
-    
-   
+
+
     <div style="margin-top: 3rem; margin-left: 25rem; margin-bottom: 10rem;">
         <div class="row">
             <div class="card color-hidden" onclick="onCardClicked(event)"></div>
@@ -59,10 +64,21 @@
             <div class="card color-hidden" onclick="onCardClicked(event)"></div>
             <div class="card color-hidden" onclick="onCardClicked(event)"></div>
         </div>
-    
+        <div class="btn-1" style="margin-top:-6rem;">
+            <a href="index.html" class="previous"> <button style="border: none;"> Previous</button> </a>
+            <a href="#" class="previous"> <button type="button" style="border: none;" onclick="Refresh()"> New Game</button></a>
+            
+        </div>
+
     </div>
     
+
     <script src="./js/JavaScript.js"></script>
+    <script>
+        function Refresh() {
+            window.parent.location = window.parent.location.href;
+        }
+    </script>
 </body>
 
 </html>
