@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Memory Games</title>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+       
+
+        html {
+            background-image: url(./images/bg2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="h2">Memory Card Game</h2>
+    
+        <div class="scroll-prompt" scroll-prompt="" ng-show="showPrompt" style="opacity: 1; margin-left: -63rem; margin-top: -5rem;">
+            <div class="scroll-prompt-arrow-container">
+                <div class="scroll-prompt-arrow"><div></div></div>
+                <div class="scroll-prompt-arrow"><div></div></div>
+            </div>
+            <div class="btn">
+           <a  href="intex.html" ><button style="text-transform: uppercase;">PREV</button></a>
+            </div>
+        </div>
+    
+   
+    <div style="margin-top: 3rem; margin-left: 25rem; margin-bottom: 10rem;">
+        <div class="row">
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+        </div>
+        <div class="row">
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+        </div>
+        <div class="row">
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+        </div>
+        <div class="row">
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+            <div class="card color-hidden" onclick="onCardClicked(event)"></div>
+        </div>
+    
+    </div>
+    
+    <script src="./js/JavaScript.js"></script>
+</body>
+
+</html>
