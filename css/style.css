@@ -170,18 +170,18 @@ h1{
 }
 .btn-1 button
 { 
-	background-image: linear-gradient(rgb(216, 143, 156),rgb(207, 47, 108));
+	background-image: linear-gradient(rgb(230, 235, 238),rgb(172, 137, 150));
 	border: none;
 	color:black;
 	
 	border-radius: 50px;
-	padding: 5px 30px;
+	padding: 5px 20px;
 	text-align: center;
 	text-decoration: none;
 	font-size: 26px;
 	position: relative;
-	left: 19rem;
-	margin-top: 6.5rem;
+	left: -23rem;
+	top: -25rem;
 
 }
 
@@ -253,12 +253,13 @@ h1{
 .teal {
 	background-color: teal;
 }
+
+.yellow {
+	background-color: yellow;
+}
 .purple
  {
 	background-color: rgb(92, 24, 131);
-}
-.yellow {
-	background-color: yellow;
 }
 
 
