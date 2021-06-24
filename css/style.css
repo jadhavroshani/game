@@ -179,9 +179,9 @@ h1{
 	text-align: center;
 	text-decoration: none;
 	font-size: 26px;
-	position: relative;
-	left: -24rem;
-	top: -25rem;
+	
+  
+	
 
 }
 
@@ -195,7 +195,6 @@ h1{
 	  text-transform: uppercase;
 	   margin-top: 3rem ; 
 	   font-size: 3rem;
-	   margin-left: 22rem;
 	   text-shadow: 3px 3px rgb(8, 8, 8);
 	
 
@@ -266,7 +265,12 @@ h1{
 
 .color-hidden
 {
-	background-image: linear-gradient(to right, black, rgb(122, 119, 129), rgb(206, 207, 198));
+	border: 3px solid #c94e8c;
+	background-color: #e5e5f7;
+opacity: 0.9;
+background-size: 23px 23px;
+background-image: repeating-linear-gradient(45deg, #c94e8c 0, #c94e8c 2.3000000000000003px, #e5e5f7 0, #e5e5f7 50%);
+	/*background-image: linear-gradient(to right, black, rgb(122, 119, 129), rgb(206, 207, 198));*/
 	
 }
 
